@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="es">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KX76XF8R');</script>
+<!-- End Google Tag Manager -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Álgebra lineal</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Sistemas de ecuaciones, matrices y determinantes, espacios vectoriales, bases y dimensión, rango, espacio cociente y transformaciones lineales con sus matrices y el cambio de base, con un primer vistazo a los autovectores en el plano y el espacio.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=JetBrains+Mono:wght@400;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400;1,8..60,600&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KX76XF8R"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div class="wrap" data-page="index">
+<header class="topbar"><a class="brand" href="index.html">Álgebra <b>lineal</b></a><span class="eyebrow">Curso visual e interactivo · Matemática</span><a class="al-sitio" href="https://aaramirez.github.io/">← Todos los cursos</a></header>
+<div class="layout">
+<nav class="toc" id="toc" aria-label="Ruta de aprendizaje"></nav>
+<main>
+
+<p class="aviso-curado" role="note">El material de Matemática está en proceso de curado: puede tener errores.</p>
+<header class="hero">
+  <span class="eyebrow">Curso visual e interactivo · Matemática</span>
+  <h1>Una matriz no es una tabla de números: es una transformación que se puede ver</h1>
+  <p class="lede">Resolver un sistema de ecuaciones, transformar una imagen, guardar una tabla de datos: detrás de las tres cosas hay matrices. Este curso parte de las cuentas (eliminación de Gauss, inversas, determinantes) y llega a la idea que las explica, la transformación lineal entre espacios vectoriales. Cada teorema se ve en el plano o en el espacio antes de demostrarse en general.</p>
+</header>
+
+<section>
+  <h2>Cómo usar este curso</h2>
+  <div class="prose">
+    <p><b>Estado.</b> El curso está en preparación. La <a href="temario.html">tabla de contenido</a> ya tiene los 12 capítulos con sus secciones y sus laboratorios, y está en revisión.</p>
+    <p><b>Para quién es.</b> Para estudiantes de matemática, estadística, actuaría, ingeniería y computación en su primer curso de álgebra lineal. Conviene haber leído Lógica y conjuntos (relaciones de equivalencia, funciones inyectivas y sobreyectivas) y Funciones. Los vectores del plano y del espacio con el producto escalar y vectorial se estudian como geometría en Geometría.</p>
+    <p><b>Cómo está hecho.</b> Dos ejemplos recorren el curso: una pequeña tabla de datos (personas por variables) que se trata como matriz, y una figura en el plano que cada transformación deforma a la vista. Los laboratorios dejan arrastrar vectores, aplicar operaciones de fila, ver el área que mide un determinante y cambiar de base; las prácticas usan Python con NumPy y SymPy. El curso habilita Álgebra lineal avanzada, Álgebra abstracta, Cálculo en varias variables, Ecuaciones diferenciales ordinarias, Análisis numérico, Procesos estocásticos e Investigación de operaciones.</p>
+  </div>
+</section>
+
+<details class="stage" id="temario" open><summary><h2><span class="pn">Empieza aquí</span> Tabla de contenido</h2></summary>
+  <div class="mods">
+    <a class="mod" href="temario.html"><span class="n">≡</span><b>Tabla de contenido</b><p>Cada capítulo con sus secciones y sus laboratorios.</p></a>
+  </div>
+</details>
+
+<details class="stage" id="parte-1" open><summary><h2><span class="pn">Parte 1</span> Sistemas y matrices</h2><span class="cuenta" data-etapa-cuenta="1"></span></summary>
+  <div class="mods">
+    <div class="mod soon" data-id="sistemas-lineales"><span class="n">01</span><b>Sistemas de ecuaciones lineales y eliminación de Gauss</b><p>Rectas que se cortan, planos que se cruzan y el algoritmo que resuelve cualquier sistema: la eliminación de Gauss.</p></div>
+    <div class="mod soon" data-id="algebra-de-matrices"><span class="n">02</span><b>Álgebra de matrices</b><p>Suma, producto, transpuesta y traza, el producto visto por filas, por columnas y por bloques, y la matriz de datos.</p></div>
+    <div class="mod soon" data-id="inversa-y-matrices-elementales"><span class="n">03</span><b>Matrices elementales e inversa</b><p>Cada operación de fila es una matriz; con ellas se calcula la inversa y se factoriza A = LU.</p></div>
+    <div class="mod soon" data-id="determinantes"><span class="n">04</span><b>Determinantes</b><p>El número que dice si una matriz es invertible y cuánto estira áreas y volúmenes: desarrollo por cofactores, adjunta y Cramer.</p></div>
+  </div>
+</details>
+
+<details class="stage" id="parte-2" open><summary><h2><span class="pn">Parte 2</span> Espacios vectoriales</h2><span class="cuenta" data-etapa-cuenta="2"></span></summary>
+  <div class="mods">
+    <div class="mod soon" data-id="espacios-y-subespacios"><span class="n">05</span><b>Espacios y subespacios vectoriales</b><p>Los axiomas de espacio vectorial, ejemplos que no son flechas, subespacios, suma y suma directa.</p></div>
+    <div class="mod soon" data-id="independencia-lineal"><span class="n">06</span><b>Combinaciones lineales, generadores e independencia</b><p>Qué vectores se alcanzan combinando otros y cuándo uno de ellos sobra.</p></div>
+    <div class="mod soon" data-id="bases-y-dimension"><span class="n">07</span><b>Bases y dimensión</b><p>Una base es un sistema de coordenadas: el lema de reemplazo demuestra que todas tienen el mismo tamaño.</p></div>
+    <div class="mod soon" data-id="rango"><span class="n">08</span><b>Los espacios de una matriz y el rango</b><p>Espacio fila, espacio columna y núcleo; el rango fila es igual al rango columna, y eso decide si un sistema tiene solución.</p></div>
+    <div class="mod soon" data-id="espacio-cociente"><span class="n">09</span><b>El espacio cociente</b><p>Identificar vectores que difieren en un subespacio produce un espacio nuevo, de dimensión dim V − dim W.</p></div>
+  </div>
+</details>
+
+<details class="stage" id="parte-3" open><summary><h2><span class="pn">Parte 3</span> Transformaciones lineales</h2><span class="cuenta" data-etapa-cuenta="3"></span></summary>
+  <div class="mods">
+    <div class="mod soon" data-id="transformaciones-lineales"><span class="n">10</span><b>Transformaciones lineales, núcleo e imagen</b><p>Rotaciones, proyecciones y derivadas como transformaciones lineales, y el teorema de la dimensión.</p></div>
+    <div class="mod soon" data-id="matriz-de-una-transformacion"><span class="n">11</span><b>La matriz de una transformación y el cambio de base</b><p>Cada transformación tiene una matriz en cada base; cambiar de base es multiplicar por matrices invertibles.</p></div>
+    <div class="mod soon" data-id="primer-vistazo-autovectores"><span class="n">12</span><b>Un primer vistazo: vectores que no cambian de dirección</b><p>Calcular autovalores y autovectores en el plano y el espacio, y ver por qué simplifican una transformación.</p></div>
+  </div>
+</details>
+
+
+
+<nav class="pager" id="pager" aria-label="Capítulo anterior y siguiente"></nav>
+</main>
+</div>
+<footer><span>Curso abierto de aaramirez.github.io.</span><span>Sitio publicado: <a href="https://github.com/aaramirez/mate-algebra-lineal" target="_blank" rel="noopener">github.com/aaramirez/mate-algebra-lineal</a></span></footer>
+</div>
+<script src="assets/lab.js"></script>
+</body>
+</html>
